@@ -176,3 +176,6 @@ $ neofetch
     .ossssssssssssssssssdMMMNysssso.       Host: OptiPlex 3010 01 
    /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 5.15.0-139-generic
 ```
+Credits to Олег@WebSlave from Нижегородская обл:
+https://habr.com/ru/articles/948396/
+*not all Олег results were supported by my tests )

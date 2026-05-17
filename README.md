@@ -156,7 +156,23 @@ Options:
           [default: 50]
 
   -h, --help
-  ```
-          Print help (see a summary with '-h')
-
-  -V, --version
+```
+Depends on:
+```
+ldd `which claude-opus-4-6-thinking_nbenchmark`
+        linux-vdso.so.1 (0x00007ffddb5e4000)
+        libcublas.so.12 => /usr/local/cuda/targets/x86_64-linux/lib/libcublas.so.12 (0x00007f790d96f000)
+        libcuda.so.1 => /lib/x86_64-linux-gnu/libcuda.so.1 (0x00007f7907d23000)
+        libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f7907cf4000)
+        libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f7907cd1000)
+        libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7907adf000)
+        /lib64/ld-linux-x86-64.so.2 (0x00007f79140de000)
+        libcublasLt.so.12 => /usr/local/cuda/targets/x86_64-linux/lib/libcublasLt.so.12 (0x00007f78d5860000)
+        librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f78d5854000)
+        libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f78d584e000)
+        libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f78d56ff000)
+$ neofetch 
+      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 20.04.6 LTS x86_64 
+    .ossssssssssssssssssdMMMNysssso.       Host: OptiPlex 3010 01 
+   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 5.15.0-139-generic
+```
